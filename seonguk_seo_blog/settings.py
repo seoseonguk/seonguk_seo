@@ -38,8 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     #third party apps
-    'image_cropping',
-    'easy_thumbnails',
+    # 'image_cropping',
+    # 'easy_thumbnails',
 
     # local app
     'main',
