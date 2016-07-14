@@ -2,8 +2,8 @@ from django.shortcuts import render
 
 
 def post_list(request):
-    pass
+    return render(request, "main/home.html")
 
 
 def post_detail(request):
-    pass
+    return render(request, "post_detail")
